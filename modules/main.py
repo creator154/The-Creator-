@@ -311,8 +311,42 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**📹 VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By♠ : {CR}\n\n**∘₊✦━━━Zx❖━━━✦₊∘**'
-                cc1 = f'**💾 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By♠ : {CR}\n\n**∘₊✦━━━❖Zx❖━━━✦₊∘**'
+                cc = f"""
+╭──────.★..─╮
+{str(count).zfill(3)}
+╰─..★.──────╯
+
+📝 Title: {name1}
+├── Extention : @{user}.mkv
+├── Resolution : [{res}]
+
+<pre><code>📚 Batch Name: {b_name}</code></pre>  📥 Extracted By :
+╭──────────.✨..─╮
+
+{CR}
+
+╰─..✨.──────────╯
+
+<pre><code> ━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━ </code></pre>
+"""
+                cc1 = f"""
+╭──────.★..─╮
+{str(count1).zfill(3)}
+╰─..★.──────╯
+
+📝 Title: {name2}
+├── Extention : @{user}.mp4
+├── Resolution : [{res1}]
+
+<pre><code>📚 Batch Name: {b_name1}</code></pre>  📥 Extracted By :
+╭──────────.✨..─╮
+
+{CR1}
+
+╰─..✨.──────────╯
+
+<pre><code> ━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━ </code></pre>
+"""
                     
                 
                 if "drive" in url:
@@ -545,8 +579,42 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
         
-                cc = f'**📹 VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} STUDENTS💛{res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By♠ : {CR}\n\n**∘₊✦━━━❖Zx❖━━━✦₊∘**'
-                cc1 = f'**💾 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} STUDENTS💛.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By♠ : {CR}\n\n**∘₊✦━━━❖Zx❖━━━✦₊∘**'
+                cc = f"""
+╭──────.★..─╮
+{str(count).zfill(3)}
+╰─..★.──────╯
+
+📝 Title: {name1}
+├── Extention : @{user}.mkv
+├── Resolution : [{res}]
+
+<pre><code>📚 Batch Name: {b_name}</code></pre>  📥 Extracted By :
+╭──────────.✨..─╮
+
+{CR}
+
+╰─..✨.──────────╯
+
+<pre><code> ━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━ </code></pre>
+"""
+                cc1 = f"""
+╭──────.★..─╮
+{str(count1).zfill(3)}
+╰─..★.──────╯
+
+📝 Title: {name2}
+├── Extention : @{user}.mp4
+├── Resolution : [{res1}]
+
+<pre><code>📚 Batch Name: {b_name1}</code></pre>  📥 Extracted By :
+╭──────────.✨..─╮
+
+{CR1}
+
+╰─..✨.──────────╯
+
+<pre><code> ━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━ </code></pre>
+"""
                     
                 
                 if "drive" in url:
