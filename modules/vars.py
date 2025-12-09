@@ -2,7 +2,7 @@
 # Add your details here and then deploy by clicking on HEROKU Deploy button
 import os
 
-API_ID    = os.environ.get("API_ID", "8333767937")
+API_ID    = os.environ.get("API_ID", "34943077")
 API_HASH  = os.environ.get("API_HASH", "11aeec678349456f1d190f02975ed89f")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
