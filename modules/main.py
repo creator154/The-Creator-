@@ -30,8 +30,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 bot = Client(
     "bot",
     api_id=8333767937,
-    api_hash=11aeec678349456f1d190f02975ed89f,
-    bot_token=8333767937:AAGVpoDtLuetB6M8AfXKKOxptdLtvSo8QGs
+    api_hash="11aeec678349456f1d190f02975ed89f",
+    bot_token="8333767937:AAGVpoDtLuetB6M8AfXKKOxptdLtvSo8QGs"
 )
 
 my_name = "SUMIT"
